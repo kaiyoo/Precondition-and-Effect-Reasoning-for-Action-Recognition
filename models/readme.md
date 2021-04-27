@@ -19,6 +19,6 @@ Models below are for Cycle2.
 
 Models | Accuracy | Weights
 --- | --- | ---
-M6.1 Effect w/ Pr(action) | 69.88 | [link](http://makeuseof.com)
-M6.2 Precondition w/ Pr(action) | 72.2 | [link](http://makeuseof.com)
-M6.3 Super w/ Pr(action) | 77.88 | [link](http://makeuseof.com)
+M6.1 Effect w/ Pr(action) | 69.88 | [link](https://drive.google.com/file/d/1DlQfTuIvbdBArIx1fKJUaS1781Y-9d2-/view?usp=sharing)
+M6.2 Precondition w/ Pr(action) | 72.2 | [link](https://drive.google.com/file/d/10hNVSBXHgD4TPEEa9g2l7mbTIODcl7bw/view?usp=sharing)
+M6.3 Super w/ Pr(action) | 77.88 | [link](https://drive.google.com/file/d/1g21krO52Bgh81MjTbChNME0pNhFZSARU/view?usp=sharing)
