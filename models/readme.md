@@ -1,5 +1,5 @@
 ## ACTION - prediction of action
-### Refer to TABLE 3: Prediction of Action accuracy.
+#### Refer to TABLE 3: Prediction of Action accuracy.
 
 Models(M7.6, M7.5, M7.4) below are for Cycle2.
 
