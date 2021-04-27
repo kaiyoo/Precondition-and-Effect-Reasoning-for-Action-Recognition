@@ -9,10 +9,10 @@
 ## [2] Annotations
 > Besided action labels provided by something-something V2 dataset, we labelled annotations (precondition, effect, super-class) relevant to action.
 > 
-> Annotations: precondition, effect, super-class
-> Precondition: 60 classes
-> Effect: 88 classes
-> Super-class: 23 classes
+> Annotations:
+> 1) Precondition: 60 classes
+> 2) Effect: 88 classes
+> 3) Super-class: 23 classes
 > 
 > Full labels of these annotations can be seen in:
 - https://docs.google.com/spreadsheets/d/1L3YeTIQuzGcXsW92mC1ALrSRtj0_g6CTsMjay0XaYS0/edit?usp=sharing
