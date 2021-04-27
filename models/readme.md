@@ -1,7 +1,7 @@
 ## ACTION - prediction of action
-#### Refer to TABLE 3: Prediction of Action accuracy.
+Refer to TABLE 3: Prediction of Action accuracy.
 
-Models(M7.6, M7.5, M7.4) below are for Cycle2.
+Models (M7.6, M7.5, M7.4) below are for Cycle2.
 
 Models | Accuracy | Weights
 --- | --- | ---
@@ -15,7 +15,7 @@ M7.3 Action w/ Pr(super) | 61.78 | [link](https://drive.google.com/file/d/1kP8mM
 
 
 ## Sub - prediction of annotations
-### Refer to TABLE 4: Comparison between cycles for training annotations.
+Refer to TABLE 4: Comparison between cycles for training annotations.
 
 Models below are for Cycle2.
 
