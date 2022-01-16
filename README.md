@@ -38,7 +38,7 @@ For the base network and baseline, we used the code of TPN (Temporal Pyramid Net
 > 2) For the next step, in the bottom part of the figure, annotations are trained with action information, and probabilities for each annotation are computed and fed to train action model again. 
 > 3) Step 1 and 2 form a cycle. This cycle can be repeated as long as the improvement of validation accuracy is observed.
 
-#    
+#
 
 [Cycles unfolded]
 ![alt text](https://github.com/kaiyoo/Precondition-and-Effect-Reasoning-for-Action-Recognition/blob/main/img/cycle_unfolded.PNG?raw=true)
