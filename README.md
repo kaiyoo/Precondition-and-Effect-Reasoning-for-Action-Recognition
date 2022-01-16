@@ -31,18 +31,20 @@
 
 ## [4] Models
 For the base network and baseline, we used the code of TPN (Temporal Pyramid Network) by Yang et al.
+
 [Cycles for training action and annotation]
 ![alt text](https://github.com/kaiyoo/Precondition-and-Effect-Reasoning-for-Action-Recognition/blob/main/img/main_cycle.PNG?raw=true)
 > 1) First, probabilities for each action class are computed as shown in the upper part of this figure. 
 > 2) For the next step, in the bottom part of the figure, annotations are trained with action information, and probabilities for each annotation are computed and fed to train action model again. 
 > 3) Step 1 and 2 form a cycle. This cycle can be repeated as long as the improvement of validation accuracy is observed.
 
-#  
+#    
 
 [Cycles unfolded]
 ![alt text](https://github.com/kaiyoo/Precondition-and-Effect-Reasoning-for-Action-Recognition/blob/main/img/cycle_unfolded.PNG?raw=true)
 > For training action, softmax probability of annotations from the very previous step and action softmax probability from the previous cycle are added. 
 > For training each model, best model weight saved from the previous cycle is loaded. 
+
 
 ## [5] Results
 - The best of our models, Model(E,P,S,A), which was trained up to Cycle2, outperforms TPN baseline by 3.4%.
