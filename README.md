@@ -1,4 +1,4 @@
-# Precondition and Effect Reasoning for Action Recognition
+## Precondition and Effect Reasoning for Action Recognition
 - Currently, our paper is under the review in the journal (Computer Vision and Image Understanding)
 
 ## [1] Overview
@@ -51,7 +51,7 @@ For the base network and baseline, we used the code of TPN (Temporal Pyramid Net
 
 Models | Cycle1 | Cycle2 | Cycle3
 --- | --- | --- | ---
-Model(E,P,S,A) | 65.15 | 65.40 | 65.29 | 
+<b>Model(E,P,S,A)</b>  | 65.15 | <b>65.40</b>  | 65.29 | 
 Model(E,P,S)  | 64.21 | 64.50 | —
 Model(E,P) | 64.08 | 64.00 | —
 
