@@ -17,7 +17,7 @@
 - And train the network originally desiged for predicting action to predict these pseudo-labels and feed their softmax probability to train action. 
 
 ## [3] Annotations
-> Besided action labels provided by something-something V2 dataset, we labelled annotations (precondition, effect, super-class) relevant to action.
+> Based on action labels provided by something-something V2 dataset, we labelled following annotations relevant to action (precondition, effect, super-class).
 > 
 > Annotations:
 > 1) Precondition: 60 classes
@@ -36,6 +36,7 @@ For the base network and baseline, we used the code of TPN (Temporal Pyramid Net
 > 1) First, probabilities for each action class are computed as shown in the upper part of this figure. 
 > 2) For the next step, in the bottom part of the figure, annotations are trained with action information, and probabilities for each annotation are computed and fed to train action model again. 
 > 3) Step 1 and 2 form a cycle. This cycle can be repeated as long as the improvement of validation accuracy is observed.
+
 
 ![alt text](https://github.com/kaiyoo/Precondition-and-Effect-Reasoning-for-Action-Recognition/blob/main/img/cycle_unfolded.PNG?raw=true)
 > For training action, softmax probability of annotations from the very previous step and action softmax probability from the previous cycle are added. 
