@@ -7,7 +7,7 @@
 - By using annotations relevant to action, we show that action prediction can be improved in cycles.
 
 ## [2] Idea
-- Somewhat similar to psuedo-labelling training as called somewhere else.
+- Somewhat similar to psuedo-labelling training as called elsewhere recently.
 ![alt text](https://github.com/kaiyoo/Precondition-and-Effect-Reasoning-for-Action-Recognition/blob/main/img/front_page.PNG?raw=true)
 
 - For example, if the label (action) is "Picking a cup up", generate following pseudo-labels,
