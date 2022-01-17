@@ -1,20 +1,20 @@
-## Precondition and Effect Reasoning for Action Recognition
+# Precondition and Effect Reasoning for Action Recognition
 - Currently, our paper is under the review in the journal (Computer Vision and Image Understanding)
 
 ## [1] Overview
 - Reinforcing the task of action recognition using annotations relevant to action.
-- Annotations: precondition, effect, super-class
-- By using annotations relevant to action, we show that action prediction can be improved in cycles.
+- Annotations: precondition, effect, super-class(category of action)
+- By utilizing these generated annotations, we show that action prediction can be improved in cycles.
 
 ## [2] Idea
 - Somewhat similar to psuedo-labelling training as called elsewhere recently.
 ![alt text](https://github.com/kaiyoo/Precondition-and-Effect-Reasoning-for-Action-Recognition/blob/main/img/front_page.PNG?raw=true)
 
-- For example, if the label (action) is "Picking a cup up", generate following pseudo-labels,
+- For example, if the label (action) is "Picking a cup up", generate the following pseudo-labels,
 > 1) Precondition: A cup is on the table
 > 2) Effect: Hand is holding a cup
-> 3) Super-class: pick
-- And train the network originally desiged for predicting action to predict these pseudo-labels and feed their softmax probability to train action. 
+> 3) Super-class: Pick
+- Train the network originally desiged for predicting action to predict these pseudo-labels, and feed their softmax probability to train action. 
 
 ## [3] Annotations
 > Based on action labels provided by something-something V2 dataset, we labelled following annotations relevant to action (precondition, effect, super-class).
@@ -43,7 +43,7 @@ For the base network and baseline, we used the code of TPN (Temporal Pyramid Net
 [Cycles unfolded]
 ![alt text](https://github.com/kaiyoo/Precondition-and-Effect-Reasoning-for-Action-Recognition/blob/main/img/cycle_unfolded.PNG?raw=true)
 > For training action, softmax probability of annotations from the very previous step and action softmax probability from the previous cycle are added. 
-> For training each model, best model weight saved from the previous cycle is loaded. 
+> For training each model, best model weight saved from the previous cycle is loaded. (transfer learning) 
 
 
 ## [5] Results
@@ -55,7 +55,6 @@ Models | Cycle1 | Cycle2 | Cycle3
 Model(E,P,S)  | 64.21 | 64.50 | —
 Model(E,P) | 64.08 | 64.00 | —
 
-- Action model using the following softmax prob (E:Effect, P:Precondition, S:Super-class, A: Action)
-- More detailed results can be checked below. (Pretrained weights are also available.)
+- Model names in "Models" tab mean: Action model that uses the following softmax prob (E:Effect, P:Precondition, S:Super-class, A: Action)
+- More detailed results as well as downloadable pretrained weights are available below.
 - https://github.com/kaiyoo/Action-and-Effect-prediction/tree/main/models
-
