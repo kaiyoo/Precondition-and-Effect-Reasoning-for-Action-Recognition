@@ -17,8 +17,8 @@
 - Train the network originally desiged for predicting action to predict these pseudo-labels, and feed their softmax probability to train action. 
 
 ## [3] Annotations
-> Based on action labels provided by something-something V2 dataset, we labelled following annotations relevant to action (precondition, effect, super-class).
-> 
+- Based on action labels provided by something-something V2 dataset, we labelled following annotations relevant to action (precondition, effect, super-class).
+ 
 > Annotations:
 > 1) Precondition: 60 classes
 > 2) Effect: 88 classes
