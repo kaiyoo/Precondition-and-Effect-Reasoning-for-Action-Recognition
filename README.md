@@ -1,5 +1,6 @@
 # Precondition and Effect Reasoning for Action Recognition
 - Currently, our paper is under the review in the journal (Computer Vision and Image Understanding)
+- Paper and code will be soon available after publication.
 
 ## [1] Overview
 - Reinforcing the task of action recognition using annotations relevant to action.
