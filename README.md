@@ -28,7 +28,7 @@ Somewhat similar to psuedo-labelling training as called elsewhere recently.
 > 3) Super-class: 23 classes
 >
 
-Full labels of these annotations can be seen [here](https://docs.google.com/spreadsheets/d/1L3YeTIQuzGcXsW92mC1ALrSRtj0_g6CTsMjay0XaYS0/edit?usp=sharing)
+Full labels of these annotations can be seen [here](https://docs.google.com/spreadsheets/d/1L3YeTIQuzGcXsW92mC1ALrSRtj0_g6CTsMjay0XaYS0/edit?usp=sharing).
 
 
 
