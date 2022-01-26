@@ -1,6 +1,7 @@
 # Precondition and Effect Reasoning for Action Recognition
-- Currently, our paper is under the review in the journal (Computer Vision and Image Understanding)
-- Paper and code will be soon available after publication.
+Currently, our paper is under the review in the journal (Computer Vision and Image Understanding).
+
+Paper and code will be soon available after publication.
 
 ## [1] Overview
 - Reinforcing the task of action recognition using annotations relevant to action.
@@ -8,7 +9,8 @@
 - By utilizing these generated annotations, we show that action prediction can be improved in cycles.
 
 ## [2] Idea
-- Somewhat similar to psuedo-labelling training as called elsewhere recently.
+Somewhat similar to psuedo-labelling training as called elsewhere recently.
+
 ![alt text](https://github.com/kaiyoo/Precondition-and-Effect-Reasoning-for-Action-Recognition/blob/main/img/front_page.PNG?raw=true)
 
 - For example, if the label (action) is "Picking a cup up", generate the following pseudo-labels,
@@ -24,9 +26,9 @@
 > 1) Precondition: 60 classes
 > 2) Effect: 88 classes
 > 3) Super-class: 23 classes
-> 
-> Full labels of these annotations can be seen in:
-- https://docs.google.com/spreadsheets/d/1L3YeTIQuzGcXsW92mC1ALrSRtj0_g6CTsMjay0XaYS0/edit?usp=sharing
+>
+
+Full labels of these annotations can be seen [here](https://docs.google.com/spreadsheets/d/1L3YeTIQuzGcXsW92mC1ALrSRtj0_g6CTsMjay0XaYS0/edit?usp=sharing)
 
 
 
@@ -57,5 +59,5 @@ Model(E,P,S)  | 64.21 | 64.50 | —
 Model(E,P) | 64.08 | 64.00 | —
 
 - Model names in "Models" tab mean: Action model that uses the following softmax prob (E:Effect, P:Precondition, S:Super-class, A: Action)
-- More detailed results as well as downloadable pretrained weights are available below.
-- https://github.com/kaiyoo/Action-and-Effect-prediction/tree/main/models
+- More detailed results as well as downloadable pretrained weights are available in [/models](/models).
+
