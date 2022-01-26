@@ -59,5 +59,5 @@ Model(E,P,S)  | 64.21 | 64.50 | —
 Model(E,P) | 64.08 | 64.00 | —
 
 - Model names in "Models" tab mean: Action model that uses the following softmax prob (E:Effect, P:Precondition, S:Super-class, A: Action)
-- More detailed results as well as downloadable pretrained weights are available in [/models directory](/models).
+- More detailed results as well as downloadable pretrained weights are available in [/models](/models) directory.
 
