@@ -29,7 +29,7 @@ Somewhat similar to psuedo-labelling training as called elsewhere recently.
 >
 
 Full labels of these annotations can be seen [here](https://docs.google.com/spreadsheets/d/1L3YeTIQuzGcXsW92mC1ALrSRtj0_g6CTsMjay0XaYS0/edit?usp=sharing).
-
+(The format in the link is a bit coarse since it was in the brainstorming stage. Data in processed forms that were used in the development stage as well as the script will be uploaded later).
 
 
 ## [4] Models
@@ -59,5 +59,5 @@ Model(E,P,S)  | 64.21 | 64.50 | —
 Model(E,P) | 64.08 | 64.00 | —
 
 - Model names in "Models" tab mean: Action model that uses the following softmax prob (E:Effect, P:Precondition, S:Super-class, A: Action)
-- More detailed results as well as downloadable pretrained weights are available in [/models](/models).
+- More detailed results as well as downloadable pretrained weights are available in [/models directory](/models).
 
